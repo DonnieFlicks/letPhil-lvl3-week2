@@ -1,9 +1,12 @@
 import { useState } from "react";
 import SmartCounter from "./components/useState/Counter";
 import "./App.css";
+import "./index.css"
 import CharacterCounter from "./components/useState/CharacterCountInput";
 import NamePreview from "./components/useState/LiveNamePreview";
 import ContactForm from "./components/useState/SimpleForm";
+import ThemeToggle from "./components/useState/ThemeToggle";
+import TodoList from "./components/useState/TodoList";
 
 // useState, useEffect, useRef | optimization useMemo, useMemoize
 // Rendering - displaying things in the browser/ui
@@ -37,7 +40,9 @@ function App() {
       {/* <SmartCounter /> */}
       {/* <CharacterCounter /> */}
       {/* <NamePreview /> */}
-      <ContactForm />
+      {/* <ContactForm /> */}
+      <ThemeToggle />
+      <TodoList />
     </div>
   );
 }
