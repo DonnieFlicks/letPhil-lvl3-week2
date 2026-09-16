@@ -41,7 +41,7 @@ function App() {
       {/* <CharacterCounter /> */}
       {/* <NamePreview /> */}
       {/* <ContactForm /> */}
-      <ThemeToggle />
+      {/* <ThemeToggle /> */}
       <TodoList />
     </div>
   );

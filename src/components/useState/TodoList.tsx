@@ -10,6 +10,22 @@ Requirements:
   - Mark task as completed
 */
 
+
 export default function TodoList() {
-  return <div>{/* CODE HERE */}</div>;
+  const [todos, setTodos] = useState<[]>()
+
+
+
+  return (
+    <>
+      <div>
+        <h1>To-Do List</h1>
+        <input className="border-2 rounded-md p-1 m-5" type="string" placeholder="Add to-do item here"></input>
+        <button className="border-2 rounded-md p-1" type="submit">Add</button>
+      </div>
+      <div>
+        {todos}
+      </div>
+    </>
+  )
 }
